@@ -1,0 +1,19 @@
+.random {
+    position: fixed;
+    top: 1rem;
+    right: 2rem;
+}
+
+.random__button {
+    appearance: none;
+    outline: none;
+    border: none;
+    padding: 2rem;
+    background-color: #fff;
+    color: dimgray;
+}
+
+.random__button i {
+    padding-left: 0.1rem;
+    color: dimgray;
+}

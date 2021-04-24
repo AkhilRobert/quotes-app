@@ -1,0 +1,25 @@
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.quote__wrapper {
+    max-width: 70%;
+    position: relative;
+}
+
+.quote__line {
+    position: absolute;
+    width: 0.45rem;
+    height: 100%;
+    background-color: var(--line-color);
+    left: -8%;
+}
+
+.quote__text {
+    font-weight: normal;
+    font-size: calc(0.9rem + 1vw);
+}
