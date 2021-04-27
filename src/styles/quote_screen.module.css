@@ -1,13 +1,9 @@
 .quote {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    flex-direction: column;
+    width: 70%;
 }
 
 .quote__wrapper {
-    max-width: 70%;
+    max-width: 100%;
     position: relative;
     margin-top: 5rem;
 }
@@ -17,7 +13,7 @@
     width: 0.45rem;
     height: 100%;
     background-color: var(--line-color);
-    left: -8%;
+    left: -2rem;
 }
 
 .quote__text {

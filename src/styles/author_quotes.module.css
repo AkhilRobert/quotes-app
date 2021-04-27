@@ -1,11 +1,18 @@
 .content {
     display: flex;
     flex-direction: column;
-    max-width: 80vw;
-    max-height: 80vh;
+    min-height: 80vh;
+    padding: 2rem;
 }
 
 .content__quotes {
     display: flex;
     flex-direction: column;
+    margin-left: 12%;
+}
+
+@media screen and (max-width: 768px) {
+    .content__quotes {
+        margin-left: 1rem;
+    }
 }
