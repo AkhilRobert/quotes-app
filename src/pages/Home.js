@@ -16,7 +16,6 @@ function Home() {
 
     async function fetchQuote() {
         const data = await getSingleRandomQuote();
-        console.log(data);
 
         setQuote(data.data[0].quoteText);
         setAuthor(data.data[0].quoteAuthor);
