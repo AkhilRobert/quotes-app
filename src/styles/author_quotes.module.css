@@ -1,0 +1,11 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 80vw;
+    max-height: 80vh;
+}
+
+.content__quotes {
+    display: flex;
+    flex-direction: column;
+}

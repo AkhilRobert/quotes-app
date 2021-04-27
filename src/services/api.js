@@ -12,4 +12,12 @@ export async function getSingleRandomQuote() {
     return data;
 }
 
-export async function getMultipleRandomQuote() {}
+export async function getMultipleRandomQuote(author) {
+    const data = await getData(
+        `https://quote-garden.herokuapp.com/api/v3/quotes/?author=${escape(
+            author
+        )}&limit=6`
+    );
+
+    return data;
+}
