@@ -1,0 +1,26 @@
+.authorButton {
+    width: 70%;
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: var(--button-color);
+    color: white;
+    cursor: pointer;
+}
+
+.authorButton__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.authorButton__rightSide {
+    transition: 0.4s ease;
+}
+
+.authorButton__wrapper:hover .authorButton__rightSide {
+    transform: translateX(0.7rem);
+}
+
+a {
+    text-decoration: none;
+}
