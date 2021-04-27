@@ -1,4 +1,3 @@
-import AuthorButton from "./AuthorButton";
 import styles from "../styles/quote_screen.module.css";
 
 function QuoteScreen(props) {
@@ -8,7 +7,6 @@ function QuoteScreen(props) {
                 <div className={styles.quote__line} />
                 <h1 className={styles.quote__text}>{props.text}</h1>
             </div>
-            <AuthorButton author={"Bill Gates"} category={"Business"} />
         </div>
     );
 }

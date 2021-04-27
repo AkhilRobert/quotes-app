@@ -17,3 +17,12 @@
     padding-left: 0.1rem;
     color: dimgray;
 }
+
+.centerWrapper {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
