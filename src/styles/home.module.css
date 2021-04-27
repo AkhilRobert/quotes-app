@@ -11,6 +11,7 @@
     padding: 2rem;
     background-color: #fff;
     color: dimgray;
+    cursor: pointer;
 }
 
 .random__button i {
